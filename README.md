@@ -41,3 +41,43 @@ SELECT *
 FROM log_in_attempts
 WHERE login_time > '18:00'
   AND success = FALSE;
+
+
+### 2️⃣ Login Attempts on Specific Dates
+```sql
+SELECT *
+FROM log_in_attempts
+WHERE login_date = '2022-05-09'
+   OR login_date = '2022-05-08';
+
+
+### 3️⃣🌎 Login Attempts Outside of Mexico
+
+SELECT *
+FROM employees
+WHERE department = 'Marketing'
+  AND office LIKE 'East%';
+
+
+### 4️⃣🏢 Employees in Marketing (East Building)
+
+SELECT *
+FROM employees
+WHERE department = 'Marketing'
+  AND office LIKE 'East%';
+
+
+### 5️⃣💼 Employees in Finance or Sales
+
+SELECT *
+FROM employees
+WHERE department = 'Finance'
+   OR department = 'Sales';
+
+
+### 6️⃣💻 Employees Not in IT
+
+SELECT *
+FROM employees
+WHERE department <> 'Information Technology';
+
