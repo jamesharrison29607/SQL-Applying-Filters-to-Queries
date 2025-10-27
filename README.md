@@ -3,6 +3,8 @@
 This project demonstrates how SQL filters can be used to extract and analyze data for system security management.  
 It includes several example queries that filter login attempts and employee data based on conditions such as date, time, location, and department.
 
+📄 **Full Project Report:** [Apply-filters-to-SQL-queries-exemplar.docx](docs/Apply-filters-to-SQL-queries-exemplar.docx)
+
 ---
 
 ## 🧠 Skills Demonstrated
